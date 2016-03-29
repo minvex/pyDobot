@@ -1,14 +1,9 @@
 #! /usr/bin/env python
 
 
-# import serial
 import time
-import struct
-
 
 from DobotSerialInterface import DobotSerialInterface
-from DobotStatusMessage import  DobotStatusMessage
-
 
 dobot_interface = DobotSerialInterface()
 
